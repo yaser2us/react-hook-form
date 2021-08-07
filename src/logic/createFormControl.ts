@@ -418,6 +418,7 @@ export function createFormControl<
     let error;
     let isValid;
     const field = get(_fields, name) as Field;
+    console.log(field, "field from library Yasser ;) Thanks Allah :)")
 
     if (field) {
       let inputValue = inputType ? getFieldValue(field) : undefined;
